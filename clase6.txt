@@ -1,0 +1,32 @@
+nodemon es un package, para ejecutar el servidor en vivo, si hay cambios nos lo actualiza
+------------------------------------------------------------------------
+instalacion
+
+npm i nodemon manera solo en el proyecto, se requiere ir a la ruta en node_modules/.bin/nodemon y poner el proceso que quiero ejecutar
+npm i nodemon -g manera global para solo poner nodemon
+npm i nodemon -d como el primero en desarrollador cuando salga a produccion se quitaria automaticamente
+npx nodemon index ejecuta en modo servidor de una vez
+
+-------------------------------------------------------------------------------------
+
+cowsay
+es un paquete de npm en el cual muestra un mensaje y un dibujo
+se instala de la misma manera
+_____________
+< Ficha 2769863 >
+ ---------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+no sirve para mucho pero sin embargo es bueno para apropiarnos de npm
+npm remove cowsay para remover
+
+--------------------------------------------------------------
+serve 
+sirve para una pagina estatica ponerla en vivo, poner el server
+npx serve public
+
+-------------------------------------------------------------
+los procesos express realiza los eventos asincronicos, indicando que quede en segundo plano y que el resto funcione de inmediato mientras carga
